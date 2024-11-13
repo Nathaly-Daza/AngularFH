@@ -10,7 +10,7 @@ export class CcourseComponent {
 
 private courses!:string[];
 private reponse:string|boolean;//unión de tipos
-dir:string="Unimepresarial";
+dir:string="Uniempresarial";
 title:string="Formulario de Registro";
 constructor(){
   this.courses = ['JAVA','PYTHON','JAVASCRIPT','TYPESCRIPT','C#'];
