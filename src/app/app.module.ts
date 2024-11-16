@@ -8,6 +8,9 @@ import { CheaderComponent } from './cheader/cheader.component';
 import { CformComponent } from './cform/cform.component';
 import { CcourseComponent } from './ccourse/ccourse.component';
 import { FormsModule } from '@angular/forms';
+import { CnosotrosComponent} from './cnosotros/cnosotros.component';
+import { CdireccionComponent } from './cdireccion/cdireccion.component';
+import { ClistaComponent } from './clista/clista.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FormsModule } from '@angular/forms';
     CfooterComponent,
     CheaderComponent,
     CformComponent,
-    CcourseComponent
+    CcourseComponent,
+    CnosotrosComponent,
+    CdireccionComponent,
+    ClistaComponent
   ],
   imports: [
     BrowserModule,

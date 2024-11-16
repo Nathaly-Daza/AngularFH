@@ -1,0 +1,27 @@
+<section class="course-list py-5" id="cursos">
+  <div class="container">
+    <div class="row text-center mb-4">
+      <div class="col-md-12">
+        <h2 class="section-title">{{ title }}</h2>
+        <p class="section-description">
+          Conoce nuestros cursos de programación, para que fortalezcas tus habilidades y seas el mejor.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4" *ngFor="let course of getCourses()">
+        <div class="course-card">
+          <div class="course-card-header">
+            <h4 class="course-title">{{ course.name }}</h4>
+          </div>
+          <div class="course-card-body">
+            <p class="course-description">{{ course.description }}</p>
+          </div>
+          <div class="course-card-footer">
+            <button class="btn btn-lila">Inscribirme</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

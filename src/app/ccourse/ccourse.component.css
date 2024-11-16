@@ -1,11 +1,17 @@
 .container{
     padding-top: 10px;
+    padding: 2rem;
+    background-color: #F8F0FC; 
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
     color: #4B0082; 
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 30px;
 }
   
   .form-label {
