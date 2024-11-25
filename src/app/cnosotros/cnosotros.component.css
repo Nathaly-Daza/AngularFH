@@ -9,10 +9,10 @@
 }
 
 .about-section {
-  background-color: #F8F0FC; 
+  /*background-color: #F8F0FC; */
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   text-align: center;
   font-family: Arial, sans-serif;
 }
