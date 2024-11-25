@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { CnosotrosComponent} from './cnosotros/cnosotros.component';
 import { CdireccionComponent } from './cdireccion/cdireccion.component';
 import { ClistaComponent } from './clista/clista.component';
+import { ContadorComponent } from './contador/contador.component';
+import { MinComponent } from './contador/min/min.component';
+import { AddComponent } from './contador/add/add.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ClistaComponent } from './clista/clista.component';
     CcourseComponent,
     CnosotrosComponent,
     CdireccionComponent,
-    ClistaComponent
+    ClistaComponent,
+    ContadorComponent,
+    MinComponent,
+    AddComponent
   ],
   imports: [
     BrowserModule,

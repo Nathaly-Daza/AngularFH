@@ -1,0 +1,14 @@
+.container-contador{
+    width: 80%;
+    padding: 2%;
+    margin:2% auto;
+    text-align: center;
+    border: 1px solid rgb(1,16,41);
+}
+
+.boton{
+    width: 20%;
+    font-size: 24px;
+    padding:2%;
+    margin:2%;
+}

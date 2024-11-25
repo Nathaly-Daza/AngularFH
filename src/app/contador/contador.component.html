@@ -1,0 +1,7 @@
+<div id="contador" class="container-contador">
+    <h2>Contador:{{counter}}</h2>
+  <!--   <button class="btn btn-success boton" (click)="increment()">+</button>
+    <button class="btn btn-danger boton" (click)="decrement()">-</button> -->
+    <app-add [counterAdd]="counter" (emitAdd)="handleCounter($event)"></app-add>
+    <app-min [counterMin]="counter" (emitMin)="handleCounter($event)"></app-min>
+</div>
